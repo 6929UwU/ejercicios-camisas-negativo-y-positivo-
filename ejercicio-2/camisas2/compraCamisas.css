@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+body {
+    font-family: 'Rancho', cursive;
+    padding-left: 32%;
+    padding-top: 7%;
+    background: url('https://r4.wallpaperflare.com/wallpaper/280/356/960/digital-art-minimalism-nature-landscape-wallpaper-930b035dbd59cbe53f864257687b38f8.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+}
+
+.card .card-border-top {
+    width: 60%;
+    height: 3%;
+    background: (#4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.card .img {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+img {
+    width: 70px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+h1 {
+    text-align: center;
+    color: #8E2DE2;
+}
+
+label {
+    font-size: 20px;
+    margin-left: 50px;
+    color: antiquewhite;
+}
+
+.input1 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #8d2de26f;
+    margin-left: 18px;
+}
+
+.input2 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #8d2de27f;
+    margin-left: 60px;
+
+}
+
+.card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: (#4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Rancho', cursive;
+    font-size: 20px;
+}
+
+.card button:hover {
+    background: darkorchid;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue
+}
